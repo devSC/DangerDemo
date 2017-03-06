@@ -11,3 +11,9 @@ warn("Big PR") if git.lines_of_code > 500
 # Don't let testing shortcuts get into master by accident
 fail("fdescribe left in tests") if `grep -r fdescribe specs/ `.length > 1
 fail("fit left in tests") if `grep -r fit specs/ `.length > 1
+
+#ENSURE THAT LABELS HAVE BEEN USED ON THE PR
+fail "Please add labels to this PR" if github.pr_labels.empty?
+
+#ONLY ACCEPT PRS TO THE DEVELOP BRANCH
+fail "Please re-submit this PR to develop, we may have already fixed your issue." if github.branch_for_base != "develop"
