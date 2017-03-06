@@ -3,5 +3,5 @@ language: objective-c
 before_install:
   - bundle install
 script:
-  - xcodebuild build -project DangerDemo.xcodeproj -scheme DangerDemo -sdk iphonesimulator10.2
+  - xcodebuild build -workspace DangerDemo.xcworkspace -scheme DangerDemo -sdk iphonesimulator10.2
   - bundle exec danger
