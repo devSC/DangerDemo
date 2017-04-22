@@ -14,6 +14,7 @@
 		C85B442B1E6D33E60051944C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C85B442A1E6D33E60051944C /* Assets.xcassets */; };
 		C85B442E1E6D33E60051944C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85B442C1E6D33E60051944C /* LaunchScreen.storyboard */; };
 		C85B44391E6D33E60051944C /* DangerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C85B44381E6D33E60051944C /* DangerDemoTests.m */; };
+		C85B44481E6D42C50051944C /* WIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C85B44471E6D42C50051944C /* WIPViewController.m */; };
 		DF0C065EC0CF17FD7C7FFB67 /* libPods-DangerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED32EC99E8CD53EBBEB95404 /* libPods-DangerDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,8 @@
 		C85B44341E6D33E60051944C /* DangerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DangerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85B44381E6D33E60051944C /* DangerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DangerDemoTests.m; sourceTree = "<group>"; };
 		C85B443A1E6D33E60051944C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C85B44461E6D42C50051944C /* WIPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIPViewController.h; sourceTree = "<group>"; };
+		C85B44471E6D42C50051944C /* WIPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIPViewController.m; sourceTree = "<group>"; };
 		ED32EC99E8CD53EBBEB95404 /* libPods-DangerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DangerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -109,6 +112,8 @@
 				C85B44221E6D33E60051944C /* AppDelegate.m */,
 				C85B44241E6D33E60051944C /* ViewController.h */,
 				C85B44251E6D33E60051944C /* ViewController.m */,
+				C85B44461E6D42C50051944C /* WIPViewController.h */,
+				C85B44471E6D42C50051944C /* WIPViewController.m */,
 				C85B44271E6D33E60051944C /* Main.storyboard */,
 				C85B442A1E6D33E60051944C /* Assets.xcassets */,
 				C85B442C1E6D33E60051944C /* LaunchScreen.storyboard */,
@@ -291,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C85B44261E6D33E60051944C /* ViewController.m in Sources */,
+				C85B44481E6D42C50051944C /* WIPViewController.m in Sources */,
 				C85B44231E6D33E60051944C /* AppDelegate.m in Sources */,
 				C85B44201E6D33E60051944C /* main.m in Sources */,
 			);
@@ -493,6 +499,7 @@
 				C85B443F1E6D33E60051944C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C85B44401E6D33E60051944C /* Build configuration list for PBXNativeTarget "DangerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +508,7 @@
 				C85B44421E6D33E60051944C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
